@@ -253,12 +253,6 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
-    .card__picture--1 {
-      background-image: url(/imgs/champiAbras.jpg); }
-    .card__picture--2 {
-      background-image: url(/imgs/tortilla1.jpg); }
-    .card__picture--3 {
-      background-image: url(/imgs/ensaladillaRusa.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -556,7 +550,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(224, 204, 223, 0.8), rgba(74, 64, 73, 0.8)), url(/imgs/tortillas.jpg);
+  background-image: linear-gradient(to right bottom, rgba(224, 204, 223, 0.8), rgba(74, 64, 73, 0.8)), url(imgs/tortillas.jpg);
   background-size: 1550px 1100px;
   background-position: top;
   position: relative; }
@@ -716,7 +710,8 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(224, 204, 223, 0.8), rgba(74, 64, 73, 0.8)), url(/imgs/pims.jpg);
+  backgroung-color: blue;
+  background-image: linear-gradient(to right bottom, rgba(224, 204, 223, 0.8), rgba(74, 64, 73, 0.8)), url(./imgs/pims.jpg);
   background-size: 1550px 950px;
   transform: skewY(-7deg);
   margin-top: -10rem; }
